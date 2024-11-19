@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+      "BLINKA_MCP2221": "1"
+    },
+    "micropico.manualComDevice": "0000.0014.0000.002.000.000.000.000.000",
+}

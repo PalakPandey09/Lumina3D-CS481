@@ -114,11 +114,12 @@ display = framebufferio.FramebufferDisplay(matrix, auto_refresh=False,rotation=1
 
 g = displayio.Group()
 b, p = adafruit_imageload.load("pi-logo32b.bmp")
+#b, p = adafruit_imageload.load("uidahologo_resized.bmp")
 t = displayio.TileGrid(b, pixel_shader=p)
 t.x = 20
 g.append(t)
 
-l = Label(text="Feather\nRP2040", font=terminalio.FONT, color=0xffffff, line_spacing=.7)
+l = Label(text="Lumina3D", font=terminalio.FONT, color=0xffffff, line_spacing=.7)
 g.append(l)
 
 display.show(g)
